@@ -3,7 +3,11 @@ A universal hackintosh EFI based on i5 4590 with H81 motherboards (No discrete g
 
 This part of readme is English, for Chinese, scroll down.
 
+I updated another release dedicated on Installing Mavericks to it. Please read the About-Mavericks.md for more close info.
+
 这一部分的README是英语，中文版本请下滑阅读
+
+我又更新了一个可以安装Mavericks的EFI，详细内容请阅读另一份About-Mavericks.md
 
 ## About this EFI
 
@@ -21,7 +25,7 @@ Motherboard: FOXCONN H81
 
 GPU: Intel HD 4600 (Integrated)
 
-RAM: 2 x 4G
+RAM: 2 x 4G DDR3 1600
 
 Storage: XSTAR SSD 120G
 
@@ -47,13 +51,11 @@ Download the assets in releases section and install the required kexts by follow
 
 ## Direct Links for USB Dongle Drivers
 
-`https://github.com/chris1111/Wireless-USB-Big-Sur-Adapter/releases/download/V18/Wireless.USB.Big.Sur.Adapter-V18.zip`
+For Mojave 10.14.6 and above using OpenCore, [click here to download](https://github.com/chris1111/Wireless-USB-Big-Sur-Adapter/releases/download/V18/Wireless.USB.Big.Sur.Adapter-V18.zip)
 
-For Mojave 10.14.6 and above using OpenCore, download this
+For Catalina 10.15.7 and below using Clover, [click here to download](https://github.com/chris1111/Wireless-USB-Adapter/files/10222459/Wireless.USB.Adapter-V17.zip)
 
-`https://github.com/chris1111/Wireless-USB-Adapter/files/10222459/Wireless.USB.Adapter-V17.zip`
-
-For Catalina 10.15.7 and below using Clover, download this
+If it fails to download, try using the 点这里下载 in the Chinese section
 
 (Also these installers ONLY support macOS so make sure you download it when Windows is still there)
 
@@ -77,7 +79,7 @@ CPU: Intel Core i5 4590
 
 GPU: Intel HD 4600 （核显）
 
-内存: 2 x 4G
+内存: 2 x 4G DDR3 1600
 
 硬盘: XSTAR SSD 120G
 
@@ -109,13 +111,11 @@ SMBIOS仿冒型号: Mac mini 2014 (i5-4260U) - 这个smbios在不用OCLP的情�
 
 我知道有些人github下载慢的要死 所有我就把挂了镜像的下载直链放在这 一键下载
 
-`https://gh-proxy.com/https://chris1111/Wireless-USB-Big-Sur-Adapter/releases/download/V18/Wireless.USB.Big.Sur.Adapter-V18.zip`
+如果你在用Mojave 10.14.6及以上且是OpenCore引导 [点这里下载](https://gh-proxy.com/https://github.com/chris1111/Wireless-USB-Big-Sur-Adapter/releases/download/V18/Wireless.USB.Big.Sur.Adapter-V18.zip)
 
-如果你在用Mojave 10.14.6及以上且是OpenCore引导 下载这个
+如果你在用Catalina 10.15.7及以下版本且是Clover引导 [点这里下载](https://gh-proxy.com/https://github.com/chris1111/Wireless-USB-Adapter-Clover/files/10222459/Wireless.USB.Adapter.Clover-V17.zip)
 
-`https://gh-proxy.com/https://github.com/chris1111/Wireless-USB-Adapter/files/10222459/Wireless.USB.Adapter-V17.zip`
-
-如果你在用Catalina 10.15.7及以下版本且是Clover引导 下载这个
+下载失败的话去英语那里的click here to download试试
 
 关于声卡，我的型号是ALC662 layoud-id是11
 
