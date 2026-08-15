@@ -1,8 +1,8 @@
-## About Mavericks
+# About Mavericks
 
 这部分的About Mavericks是英语，中文请下滑阅读。
 
-# Prologue
+## Prologue
 
 I honestly don't know why I want this PC to run a Mavericks (cause skeuomorphism is cool, I think?) on it all of a sudden
 
@@ -10,7 +10,7 @@ Then I made some tweaks (and it took me hours to debug fahhhhhh) and it successf
 
 So I decided to upload another package for people who want some neat skeuomorphism design and old-school Apple feeling, even if Mavericks is basically cripped in nowaday's software environment
 
-# Precautions
+## Precautions
 
 If you still don't have a Mavericks image, you can download it in my Releases tab, unzip it and simply put it in the same directory as the EFI. (However I still strongly recommend using a full installer, the reason is below)
 
@@ -26,9 +26,9 @@ Next is the USB mapping problems. And because there's no USB port limit on Maver
 
 For now, this EFI can boot to recovery environment successfully. If anything is not working (Graphics, Sounds, or whatever) please add an issue and let me know.
 
-## 中文
+# 中文
 
-# 前言
+## 前言
 
 我估计是脑子抽抽了，不知道为啥突然想让这台电脑跑个Mavericks（也许拟物化更有感觉？）
 
@@ -36,7 +36,7 @@ For now, this EFI can boot to recovery environment successfully. If anything is 
 
 所以为了喜欢拟物化和大果公司老设计的人，我就想再上传一个EFI整合包，就算Mavericks在当今的软件生态里是个十足的瘸子。（体验在先嘛）
 
-# 注意事项
+## 注意事项
 
 如果你依旧没有Mavericks的镜像，你可以在Releases下下载在线恢复镜像com.apple.recovery.boot.zip, 解压后放到和EFI一样的目录就好（但是我依旧强烈推荐用离线镜像，大概5GB，原因在下面）
 
