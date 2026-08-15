@@ -1,0 +1,45 @@
+## About Mavericks
+
+这部分的About Mavericks是英语，中文请下滑阅读。
+
+# Prologue
+
+I honestly don't know why I want this PC to run a Mavericks (cause skeuomorphism is cool, I think?) on it all of a sudden
+
+Then I made some tweaks (and it took me hours to debug fahhhhhh) and it successfully booted! That was unexpected btw
+
+So I decided to upload another package for people who want some neat skeuomorphism design and old-school Apple feeling, even if Mavericks is basically cripped in nowaday's software environment
+
+# Precautions
+
+If you want Monterey (macOS 12), DO NOT USE THIS EFI. Download the another one in Releases tab.
+
+Most kexts work in Mavericks but some don't. The exceptions are USB mapping kexts (USBMap & UTBDefault) and RealtekRTL8111. 
+
+I downgraded the RealtekRTL8111 to a older version, and it seems compatible.
+
+Next is the USB mapping problems. And because there's no USB port limit on Mavericks, and my newer Catalina seems also don't need a USB mapping kext(s), so, case closed.
+
+For now, this EFI can boot to recovery environment successfully. If anything is not working (Graphics, Sounds, or whatever) please add an issue and let me know.
+
+## 中文
+
+# 前言
+
+我估计是脑子抽抽了，不知道为啥突然想让这台电脑跑个Mavericks（也许拟物化更有感觉？）
+
+之后我在之前的EFI上做了点调整（牛魔的花了我几个小时调试wdnmd）然后还真启动了！我还真没想到。
+
+所以为了喜欢拟物化和大果公司老设计的人，我就想再上传一个EFI整合包，就算Mavericks在当今的软件生态里是个十足的瘸子。（体验在先嘛）
+
+# 注意事项
+
+如果你要用Monterey (macOS 12)，### 不要用 ### 这个整合包！去Releases栏下载另一个。
+
+大部分的kext依旧在Mavericks工作，但有几个例外。分别是给USB映射用的kext (USBMap & UTBDefault) 和 RealtekRTL8111. 
+
+我给RealtekRTL8111降了个级，貌似可以用。
+
+接着就是USB映射的问题。因为Mavericks并没有USB端口限制，我目前在用的Catalina没了USB映射的kext（好像）也可以正常用，那就结案了。
+
+目前这份EFI可以成功进入恢复环境。如果有东西用不了，请在issue里点拨一下。
