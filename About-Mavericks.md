@@ -12,7 +12,11 @@ So I decided to upload another package for people who want some neat skeuomorphi
 
 # Precautions
 
+If you still don't have a Mavericks image, you can download it in my Releases tab, unzip it and simply put it in the same directory as the EFI. (However I still strongly recommend using a full installer, the reason is below)
+
 If you want Monterey (macOS 12), DO NOT USE THIS EFI. Download the another one in Releases tab.
+
+Also, prepare your Apple ID (Better be a backup one) if you're using an online recovery image. I have no idea why Apple needs your account just for reinstalling the system but they just did (Apple sucks)
 
 Most kexts work in Mavericks but some don't. The exceptions are USB mapping kexts (USBMap & UTBDefault) and RealtekRTL8111. 
 
@@ -34,7 +38,11 @@ For now, this EFI can boot to recovery environment successfully. If anything is 
 
 # 注意事项
 
+如果你依旧没有Mavericks的镜像，你可以在Releases下下载在线恢复镜像com.apple.recovery.boot.zip, 解压后放到和EFI一样的目录就好（但是我依旧强烈推荐用离线镜像，大概5GB，原因在下面）
+
 如果你要用Monterey (macOS 12)，### 不要用 ### 这个整合包！去Releases栏下载另一个。
+
+并且如果你要用在线恢复（Mavericks），请准备好你的Apple ID（最好是备用）。鬼知道为什么苹果就连重安系统都要账号，但苹果确实这么做了（大果四凤了）
 
 大部分的kext依旧在Mavericks工作，但有几个例外。分别是给USB映射用的kext (USBMap & UTBDefault) 和 RealtekRTL8111. 
 
