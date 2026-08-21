@@ -10,6 +10,8 @@ Then I made some tweaks (and it took me hours to debug fahhhhhh) and it successf
 
 So I decided to upload another package for people who want some neat skeuomorphism design and old-school Apple feeling, even if Mavericks is basically cripped in nowaday's software environment
 
+WARNING: It's still work in process and it's not out-of-the-box. Take some time to debug it if you can.
+
 ## Precautions
 
 If you still don't have a Mavericks image, you can download it in my Releases tab, unzip it and simply put it in the same directory as the EFI. (However I still strongly recommend using a full installer, the reason is below)
@@ -35,6 +37,8 @@ For now, this EFI can boot to recovery environment successfully. If anything is 
 之后我在之前的EFI上做了点调整（牛魔的花了我几个小时调试wdnmd）然后还真启动了！我还真没想到。
 
 所以为了喜欢拟物化和大果公司老设计的人，我就想再上传一个EFI整合包，就算Mavericks在当今的软件生态里是个十足的瘸子。（体验在先嘛）
+
+注意：这个EFI不是开箱即用，找个时间好好调试一下也不是不行。
 
 ## 注意事项
 
